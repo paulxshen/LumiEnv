@@ -14,5 +14,5 @@ using PackageCompiler
 #     # include_transitive_dependencies=false
 # )
 
-# create_sysimage(sysimage_path="lumi.so", project=".", precompile_execution_file="build/precompile_app.jl", import_into_main=true)
-create_sysimage(sysimage_path="lumi.so", project=".", import_into_main=true)
+create_sysimage(sysimage_path="lumi.so", project=".", precompile_execution_file="build/precompile_app.jl", import_into_main=true)
+# create_sysimage(sysimage_path="lumi.so", project=".", import_into_main=true)
