@@ -14,4 +14,4 @@ using PackageCompiler
 #     # include_transitive_dependencies=false
 # )
 
-create_sysimage(["Luminescent"]; sysimage_path="lumi.so", precompile_execution_file="build/precompile_app.jl")
+create_sysimage(["Luminescent"]; sysimage_path="lumi.so", active_project=".", precompile_execution_file="build/precompile_app.jl")
