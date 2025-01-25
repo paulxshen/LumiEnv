@@ -1,5 +1,5 @@
 using PackageCompiler
-create_sysimage(sysimage_path="lumi.so", project=".", precompile_execution_file="build/precompile_app.jl")
+create_sysimage(sysimage_path="lumi.so", project=".", precompile_execution_file="build/precompile_app.jl", import_into_main=false)
 # ENV["JULIA_SSL_CA_ROOTS_PATH"] = ""
 
 # create_app(".", "../Luminescent",
